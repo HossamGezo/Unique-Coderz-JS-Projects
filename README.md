@@ -1,6 +1,6 @@
 # Add Message JS Project
 
-## ---------- HTML ----------
+## ---------- HTML
 
 - Create Input Tag
 
@@ -8,11 +8,11 @@
 
 - Create Div Tag For Printing Msg
 
-## ---------- CSS -----------
+## ---------- CSS
 
 - Make Some Styles For Every Elements
 
-## ---------- JS  -----------
+## ---------- JS
 
 - Get All Elements In HTML
 
