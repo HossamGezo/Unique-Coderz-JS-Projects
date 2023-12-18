@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.container {
+  width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 500px;
+  padding: 20px 5px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #333333;
+  outline: none;
+  font-size: 20px;
+}
+
+.myBtn {
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  color: #FFFFFF;
+  transition: 0.3s linear;
+}
+.myBtn:hover {
+  opacity: 0.8;
+}
+.myBtn:active {
+  opacity: 1;
+}/*# sourceMappingURL=main.css.map */
