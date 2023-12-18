@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.container {
+  width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #333333;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.myBtn {
+  width: 200px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #333333;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  transition: 0.3s linear;
+}
+.myBtn:hover {
+  opacity: 0.8;
+}
+.myBtn:active {
+  opacity: 1;
+}
+
+.table-container {
+  border: 1px solid #333333;
+}
+.table-container td {
+  border: 1px solid #333333;
+  padding: 7px 15px;
+}/*# sourceMappingURL=main.css.map */

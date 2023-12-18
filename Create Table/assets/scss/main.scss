@@ -1,0 +1,68 @@
+// Import All Using Helpers Directory
+@use "helpers/usinghelpers" as *;
+
+// Begining Of The Project
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  @include flex(null, null, center, center, null);
+}
+ul li {
+  list-style-type: none;
+}
+button, a {
+  cursor: pointer;
+}
+input, 
+button, 
+textarea,
+select {
+  font-family: inherit;
+}
+.container {
+  width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+  @include flex(column, null, center, center, null);
+}
+
+// Begining Of The Project
+input {
+  width: 500px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid color(blk-color-02);
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.myBtn {
+  width: 200px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: color(blk-color-02);
+  color: color(wht-color-01);
+  margin-bottom: 20px;
+  @include transition;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+.table-container {
+  border: 1px solid color(blk-color-02);
+  td {
+    border: 1px solid color(blk-color-02);
+    padding: 7px 15px;
+  }
+}
