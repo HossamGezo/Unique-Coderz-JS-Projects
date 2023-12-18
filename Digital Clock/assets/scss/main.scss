@@ -1,0 +1,38 @@
+// Import All Using Helpers Directory
+@use "helpers/usinghelpers" as *;
+
+// Begining Of The Project
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  @include flex(null, null, center, center, null);
+}
+ul li {
+  list-style-type: none;
+}
+button, a {
+  cursor: pointer;
+}
+input, 
+button, 
+textarea,
+select {
+  font-family: inherit;
+}
+.container {
+  width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+  @include flex(null, null, center, center, 5px);
+}
+
+// Begining Of The Project
+
+.clock {
+  font-size: 30px;
+}
